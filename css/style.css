@@ -1,0 +1,131 @@
+body {
+    font-family: 'Lora', sans-serif;
+}
+/* Header */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0px 5%;
+    padding: 10px 10px 10px 10px;
+}
+.navBar img { 
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+.navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    color: #6663D4;
+    cursor: pointer;
+  }
+  .icons {
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    width: 30%;
+    cursor: pointer;
+  }
+  
+  .icons img {
+    margin: 0px;
+    cursor: pointer;
+  }
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0px 5%;
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    color: #6663D4;
+    font-size: 48px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: bold;
+  }
+
+.blackAndWhite {
+    display: flex;
+    width: 25%;
+    
+}
+
+.aboutMe {
+    border: 3px solid #6663D4;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+  p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  button {
+    font-family: 'Lora', sans-serif;
+    color: #6663D4;
+    background-color: black;
+    border:3px solid #6663D4;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 5px;
+    font-size: 48px;
+    cursor: pointer;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Footer */
+  footer{
+    background-color: black;
+    margin: 0px 5%;
+    padding: 20px 10px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    color: #6663D4;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+  .email {
+    color: #6663D4;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+  }
+  
+  a:link {color:#6663D4;
+}
