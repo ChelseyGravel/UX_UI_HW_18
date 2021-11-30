@@ -349,7 +349,7 @@ section{
     font-family: 'Ubuntu', sans-serif;
   }
 
-
+ /* media responsive */
   @media only screen and  (max-width: 600) {
     .flexContainer {
     flex-direction: column;
