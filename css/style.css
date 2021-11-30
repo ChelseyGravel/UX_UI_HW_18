@@ -221,9 +221,13 @@ section{
 
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: (1fr, 1fr);
   gap: 10px;
-  grid-auto-rows: minmax(10px, auto);
+  grid-template-rows: 300px 300px;
+  grid-template-areas: 
+  "item1 item2"
+  "item3 item4"
+  ;
 }
 
 .item1 {
@@ -343,4 +347,24 @@ section{
     padding: 20px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  @media only screen and  (max-width: 600) {
+    .flexContainer {
+    flex-direction: column;
+  }
+  
+    .box {
+      width: 100%;
+    }
+    .wrapper {
+      grid-template-rows: 300px 300px 300px 300px;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "item1"
+      "item2"
+      "item3"
+      "item4";
+    }
   }
