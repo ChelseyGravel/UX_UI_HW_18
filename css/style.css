@@ -44,6 +44,9 @@ section{
   margin: 0px 5%;
   margin-bottom: -20px;
 }
+
+
+
 /* Content */
 .content {
     display: flex;
@@ -361,3 +364,12 @@ section{
       flex-direction: column;
     }
   }
+
+  a {
+    color: #6663D4 !important;
+    text-decoration: none ;
+    }
+    
+    a:link {
+  color: #6663D4 !important;
+    }
